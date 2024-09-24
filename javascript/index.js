@@ -46,7 +46,7 @@ document.querySelector('#donet-btnF').addEventListener('click', function (event)
     
     const donetion = document.querySelector('#priceTwo ')
     const inputField = document.querySelector('#card_textFeni ').value;
-    console.log(inputField)
+    
     const parent=event.target.parentElement.parentElement
     calculate(donetion, inputField,parent)
     
@@ -55,7 +55,7 @@ document.querySelector('#donet-btnQ').addEventListener('click', function (event)
     
     const donetion = document.querySelector('#priceThree ')
     const inputField = document.querySelector('#card_textQuota ').value;
-    console.log(inputField)
+    
     const parent=event.target.parentElement.parentElement
     calculate(donetion, inputField,parent)
     
