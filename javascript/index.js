@@ -37,7 +37,7 @@ document.querySelector('#donet-btn').addEventListener('click', function (event) 
     const donetion = document.querySelector('#price ')
     const inputField = document.querySelector('#card_text ').value;
     const inputFieldcontainer = document.querySelector('.card-text');
-    
+    document.querySelector('#card_text ').value=''
     const parent=event.target.parentElement.parentElement
     calculate(donetion, inputField,parent)
     
@@ -46,7 +46,7 @@ document.querySelector('#donet-btnF').addEventListener('click', function (event)
     
     const donetion = document.querySelector('#priceTwo ')
     const inputField = document.querySelector('#card_textFeni ').value;
-    
+    document.querySelector('#card_textFeni ').value=''
     const parent=event.target.parentElement.parentElement
     calculate(donetion, inputField,parent)
     
@@ -55,7 +55,7 @@ document.querySelector('#donet-btnQ').addEventListener('click', function (event)
     
     const donetion = document.querySelector('#priceThree ')
     const inputField = document.querySelector('#card_textQuota ').value;
-    
+    document.querySelector('#card_textQuota ').value=''
     const parent=event.target.parentElement.parentElement
     calculate(donetion, inputField,parent)
     

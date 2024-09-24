@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .lexend {
+            font-family: "Lexend", sans-serif;
+            
+        }
+    </style>
+</head>
+<body>
+<section class="bg-green-500 card-containerr flex flex-col gap-6 p-6 w-3/4 justify-center mx-auto">
+    <div class=" flex flex-col md:flex-row bg-green-500 border p-5 rounded-lg border-white justify-between shadow-xl">
+        <div class="card card-compact bg-green-500  md:shadow-xl md:w-1/2">
+             <img class="w-full" src="/assets/noakhali.png" alt="Shoes" />
+        </div>
+
+       
+
+        <div class="card-body md:w-1/2 ">
+            <div class="  flex w-56 gap-4 items-center inline-flex ">
+                <img src="/assets/coin.png" alt="">
+                <h1  class="bg-slate-300"> <span id="price"> 500</span> BDT</h1>
+
+            </div>
+            <div>
+                <h2 class="card-title">Donate for Flood at Noakhali, Bangladesh</h2>
+                <p> The recent floods in Noakhali have caused significant damage to homes infrastructure. Your
+                    donation will help provide essential supplies and to those affected by this disaster. Every
+                    contribution, big or small, makes difference. Please join us in supporting the relief
+                    efforts and making a positive impact on the lives of those in need.</p>
+                <div class="flex flex-col">
+                    <input id="card_text" class=" mb-5 p-4 text-base border rounded-md" type="text"
+                        placeholder="Write Donation Ammount">
+
+                   
+                    <button id="donet-btn"
+                        class="px-10 text-xl w-full  font-extrabold text-slate-950 btn bg-[#ABEF5F] bg-opacity-50 border-[#ABEF5F] rounded-r-full rounded-full "
+                        class="btn" >Donate Now
+
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>    
+</body>
+</html>
